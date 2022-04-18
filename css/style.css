@@ -53,7 +53,7 @@ section a {
 .signs,
 .main-bg h2,
 header button {
-  color: white;
+  color: #FFFFFF;
 }
 
 .signs,
@@ -63,27 +63,31 @@ header button {
 
 .menu a,
 .footer-column a {
-  color: black;
+  color: #000000;
   text-decoration: none;
+}
+
+.menu nav ul li a,
+.copyright {
+  font-size: 12px;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  width: 1440px;
-  padding: 0 50px;
+  width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 header {
-  width: 1340px;
   height: 47px;
   margin-top: 17px;
-
 }
 
 header button {
-  width: 205px;
-  height: 47px;
+  width: 160px;
+  height: 45px;
   background-color: #079FD0;
   border: none;
   border-radius: 10px;
@@ -113,59 +117,56 @@ header button {
 }
 
 .menu nav ul li a {
-  font-size: 12px;
   font-weight: 500;
   line-height: 14.63px;
 }
 
 main {
   padding-top: 17px;
+  height: 100vh;
 }
 
 .main-bg {
-  background-color: #C4C4C4;
-  width: 1113px;
-  height: 672px;
+  background-color: #C4C4C4AD;
+  width: 923px;
+  height: 90%;
 }
 
 .main-title-photo {
-  width: 624px;
-  height: 416px;
-  right: -227px;
-  top: 123px;
+  width: 524px;
+  right: -177px;
+  top: 103px;
 }
 
 .main-bg h1 {
-  top: 40px;
-  left: 113px;
-  font-size: 288px;
+  left: 103px;
+  font-size: 230px;
   line-height: 351.07px;
   letter-spacing: -0.05em;
 }
 
 .main-bg h2 {
-  left: 113px;
-  top: 356px;
+  left: 103px;
+  top: 326px;
   font-size: 55px;
   width: 430px;
   line-height: 55px;
 }
 
 .signs {
-  left: 113px;
-  bottom: 93px;
+  left: 103px;
+  top: 486px;
   width: 200px;
   font-size: 24px;
 }
 
 section {
-  width: 1340px;
   display: flex;
-  padding-top: 111px;
+  padding-top: 80px;
 }
 
 .wrapper {
-  width: 730px;
+  width: 630px;
 }
 
 .section-text {
@@ -175,7 +176,7 @@ section {
 }
 
 .section-photo {
-  height: 436px;
+  height: 376px;
 }
 
 section h2,
@@ -224,17 +225,12 @@ footer a {
 }
 
 .card {
-  width: 380px;
-  margin-right: 74px;
+  width: 340px;
+  margin-right: 50px;
 }
 
 .card-photo {
-  width: 380px;
-  height: 286px;
-}
-
-.last-photo {
-  width: 432px;
+  width: 340px;
 }
 
 .card-section-text {
@@ -254,11 +250,11 @@ footer a {
 
 footer {
   left: 0;
-  width: 1440px;
+  width: 1100px;
   height: 339px;
   margin-top: 63px;
-  background-color: rgba(196, 196, 196, 0.2);
-  padding: 50px 20px 50px 50px;
+  background-color: #C4C4C433;
+  padding: 50px;
 }
 
 .footer-container {
@@ -270,7 +266,7 @@ footer {
 }
 
 .column-wrapper {
-  width: 620px;
+  width: 550px;
 }
 
 .footer-column p {
@@ -279,6 +275,5 @@ footer {
 
 .copyright {
   font-weight: 600;
-  font-size: 16px;
   line-height: 20px;
 }
